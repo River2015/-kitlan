@@ -1,0 +1,34 @@
+.inner {
+	@include center-block;
+	border: 1px solid #000;
+	width: 100%;
+	margin-left: -15px; 
+	 margin-right: -15px;
+.inner:after , .clearfix:after 
+{content:""; display: block; clear: both;}
+}
+.servieces {
+	.servieces-title {
+		color:  #3399ff;
+		font-family: $font-family;
+		font-size: $font-size + 24px;
+		font-weight: 700;
+		margin: 0;
+		padding: 59px 0 30px 0;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.items {
+		box-sizing: border-box;
+		float: left;
+		width: 25%;
+		padding: 15px;
+		// &:first-child{
+		// 	margin-left: -15px;
+		// }
+		// &:last-child {
+		// 	margin-right: -15px;
+		// }
+	}
+
+}
